@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+}
+
+ .input {
+        color: #8707ff;
+        border: 2px solid #8707ff;
+        border-radius: 10px;
+        padding: 15px 30px;
+        background: transparent;
+        max-width: 190px;
+       }
+       
+       .input:active {
+        box-shadow: 2px 2px 15px #8707ff inset;
+       }
+
+
+.inpArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+    button {
+        height: 50px;
+        margin: 5px;
+        width: 120px;
+        background: #333;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        cursor: pointer;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-family: Consolas, Courier New, monospace;
+        border: solid #404c5d 1px;
+        font-size: 16px;
+        color: rgb(161, 161, 161);
+        -webkit-transition: 500ms;
+        transition: 500ms;
+        border-radius: 5px;
+        background: linear-gradient(145deg, #2e2d2d, #212121);
+        -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+          inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+        box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+          inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+          user-select: none;
+      }
+      
+      button:hover {
+        -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+        box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+        color: #d6d6d6;
+        -webkit-transition: 500ms;
+        transition: 500ms;
+      }
+      
+      button:active {
+        -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+        box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+        color: #d6d6d6;
+        -webkit-transition: 100ms;
+        transition: 100ms;
+      }
+      
+
+
+.speechAud{
+    width: 500px;
+    background-color: transparent;
+    user-select: none;
+}
+
+     audio::-webkit-media-controls-panel {
+     background-color: #d6d6d6;
+     }
+    
+.logo{
+    width: 100px;
+}
+
+.TTS{
+    color: #8707ff;
+    font-family: Consolas, Courier New, monospace;
+
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    user-select: none; 
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.currVoiceDiv{
+    color: #8707ff;
+    font-family: Consolas, Courier New, monospace;
+}
+
+.activebtn{
+    color: #8707ff;
+}
