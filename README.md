@@ -8,7 +8,7 @@ User-friendly interface.
 Responsive design.
 
 
-![Screenshot]()
+![Screenshot](./tts.png)
 
 Installation
 Clone the repository to your local machine:
