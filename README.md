@@ -1,4 +1,5 @@
-React Text-to-Speech App with Alloy API
+React Text-to-Speech App with Alloy API.
+
 This is a simple React application that utilizes the Alloy Text to Speech API to convert text into speech. The app provides 6 different voice options for customization.
 
 Features
